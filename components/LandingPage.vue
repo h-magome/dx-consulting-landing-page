@@ -161,7 +161,7 @@
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">あなたのDX顧問 - 馬込 浩</h2>
           <div class="flex flex-col md:flex-row items-center justify-center">
-            <img src="/placeholder.svg" alt="馬込 浩" class="rounded-full w-64 h-64 object-cover mb-8 md:mb-0 md:mr-12" />
+            <img src="/リサイズ浩.png" alt="馬込 浩" class="rounded-full w-64 h-64 object-cover mb-8 md:mb-0 md:mr-12" />
             <div class="max-w-lg">
               <p class="text-lg mb-8">
                 大規模プロジェクトから小規模な案件まで、幅広く対応できる経験豊富なDXコンサルタントです。ITシステムの導入や業務効率化の実績を多数持ち、どのような課題にも迅速に対応いたします。
