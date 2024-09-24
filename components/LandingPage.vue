@@ -57,14 +57,17 @@
           <h2 class="text-3xl font-bold mb-8 text-center text-green-500">様々な背景・ケースでDXを支援</h2>
           <div class="grid md:grid-cols-3 gap-8 mb-12">
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/WEBサイト構築運用・活用.svg" alt="WEBサイト構築運用・活用" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">WEBサイト構築運用・活用</h3>
               <p>効果的なWEBサイトの構築と運用をサポートし、ビジネスの成長を促進します。</p>
             </div>
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/業務効率化.svg" alt="業務効率化" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">業務効率化</h3>
               <p>業務プロセスの見直しと最適化を通じて、効率的な業務運営を実現します。</p>
             </div>
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/新規のITシステム導入支援.svg" alt="新規のITシステム導入支援" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">新規のITシステム導入支援</h3>
               <p>最新のITシステム導入を支援し、企業の競争力を高めます。</p>
             </div>
@@ -81,14 +84,17 @@
           </p>
           <div class="grid md:grid-cols-3 gap-8 mb-12">
             <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="/images/低価格.svg" alt="低価格" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">低価格</h3>
               <p>月額29,800円のリーズナブルな価格設定</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="/images/即レスポンス.svg" alt="即レスポンス" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">即レスポンス</h3>
               <p>迅速な対応でお客様の問題を即座に解決</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
+              <img src="/images/幅広い業務対応.svg" alt="幅広い業務対応" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">幅広い業務対応</h3>
               <p>ウェブサイト制作、業務効率化支援、ITシステム導入代行など、さまざまなサービスを提供</p>
             </div>
