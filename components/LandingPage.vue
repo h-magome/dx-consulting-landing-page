@@ -5,8 +5,8 @@
         <div class="container mx-auto px-4">
           <div class="flex justify-between items-center h-16">
             <div class="flex items-center">
-              <img src="/placeholder.svg" alt="KOPS Logo" class="h-10 w-10 mr-2">
-              <span class="font-bold text-xl text-gray-800">株式会社KOPS</span>
+              <img src="/KOPSロゴ.webp" alt="KOPS Logo" class="h-16 w-16 mr-2">
+              <span class="font-bold text-xl text-gray-800">あなたのDX顧問</span>
             </div>
             <div class="hidden md:flex space-x-4">
               <a href="#service" class="text-gray-600 hover:text-gray-800">サービス概要</a>
