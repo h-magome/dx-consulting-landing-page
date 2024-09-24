@@ -51,8 +51,29 @@
         </div>
       </header>
   
+      <!-- DX Support -->
+      <section id="dx-support" class="bg-white py-16 px-4">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-8 text-center">様々な背景・ケースでDXを支援</h2>
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">WEBサイト構築運用・活用</h3>
+              <p>効果的なWEBサイトの構築と運用をサポートし、ビジネスの成長を促進します。</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">業務効率化</h3>
+              <p>業務プロセスの見直しと最適化を通じて、効率的な業務運営を実現します。</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-semibold mb-4">新規のITシステム導入支援</h3>
+              <p>最新のITシステム導入を支援し、企業の競争力を高めます。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+  
       <!-- Service Overview -->
-      <section id="service" class="py-16 px-4">
+      <section id="service" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-8 text-center">DXコンサルティングで、貴社の成長を加速</h2>
           <p class="text-lg mb-8 text-center max-w-3xl mx-auto">
@@ -81,23 +102,23 @@
       </section>
   
       <!-- Service Flow -->
-      <section id="flow" class="bg-gray-200 py-16 px-4">
+      <section id="flow" class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">サービスの流れ</h2>
           <div class="grid md:grid-cols-4 gap-8">
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">1. 現状分析と課題ヒアリング</h3>
               <p>業務内容や課題を詳細にヒアリングし、現在の業務状況を分析します。</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">2. 最適な提案</h3>
               <p>あなたの企業に最適なデジタル化の方法を提案します。お客様が気づいていない課題も浮き彫りにします。</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">3. 実行支援</h3>
               <p>提案内容を実行し、システム導入や業務の改善を支援します。</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">4. 継続的なサポート</h3>
               <p>実行後もサポートを継続し、必要に応じてさらなる改善を行います。</p>
             </div>
@@ -111,7 +132,7 @@
       </section>
   
       <!-- Achievements -->
-      <section id="achievements" class="py-16 px-4">
+      <section id="achievements" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">実績紹介</h2>
           <div class="grid md:grid-cols-2 gap-8 mb-12">
@@ -133,18 +154,16 @@
       </section>
   
       <!-- Customer Reviews -->
-      <section id="reviews" class="bg-gray-200 py-16 px-4">
+      <section id="reviews" class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">お客様の声</h2>
           <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <p class="mb-4">「丁寧なヒアリングで、私たちが気づいていなかった課題を発見し、最適な解決策を提案してもらいました。」</p>
               <p class="font-semibold">- A社 代表取締役</p>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-              <p class="mb-4">「DX導入後、業務効率が飛躍的に向上し
-  
-  ました。サポートがとても迅速で助かっています。」</p>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <p class="mb-4">「DX導入後、業務効率が飛躍的に向上しました。サポートがとても迅速で助かっています。」</p>
               <p class="font-semibold">- B社 経営企画部長</p>
             </div>
           </div>
@@ -157,7 +176,7 @@
       </section>
   
       <!-- Consultant Introduction -->
-      <section id="consultant" class="py-16 px-4">
+      <section id="consultant" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">あなたのDX顧問 - 馬込 浩</h2>
           <div class="flex flex-col md:flex-row items-center justify-center">
@@ -175,10 +194,10 @@
       </section>
   
       <!-- Contact Form -->
-      <section id="contact" class="bg-gray-200 py-16 px-4">
+      <section id="contact" class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">今すぐ無料相談をお申し込みください</h2>
-          <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="max-w-3xl mx-auto bg-gray-100 rounded-lg shadow-md overflow-hidden">
             <iframe 
               src="https://docs.google.com/forms/d/e/1FAIpQLSd2NzTik0b26K6Cwtx0yIyqllwwKxfiedZx7fOb7fervW-9Fg/viewform?embedded=true" 
               width="100%" 
@@ -195,7 +214,7 @@
       </section>
   
       <!-- FAQ -->
-      <section class="py-16 px-4">
+      <section class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center">よくある質問</h2>
           <div class="max-w-3xl mx-auto">
