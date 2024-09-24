@@ -54,7 +54,7 @@
       <!-- DX Support -->
       <section id="dx-support" class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-8 text-center">様々な背景・ケースでDXを支援</h2>
+          <h2 class="text-3xl font-bold mb-8 text-center text-green-500">様々な背景・ケースでDXを支援</h2>
           <div class="grid md:grid-cols-3 gap-8 mb-12">
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">WEBサイト構築運用・活用</h3>
@@ -75,7 +75,7 @@
       <!-- Service Overview -->
       <section id="service" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-8 text-center">DXコンサルティングで、貴社の成長を加速</h2>
+          <h2 class="text-3xl font-bold mb-8 text-center text-green-500">DXコンサルティングで、貴社の成長を加速</h2>
           <p class="text-lg mb-8 text-center max-w-3xl mx-auto">
             株式会社KOPSは、不動産業、建設業、清掃業などの小規模事業者を対象に、デジタル化を通じた業務効率化とコスト削減をサポートします。大規模プロジェクトで培ったノウハウを、月額29,800円で、小規模企業でも実現可能な形でご提案します。
           </p>
@@ -104,7 +104,7 @@
       <!-- Service Flow -->
       <section id="flow" class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">サービスの流れ</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">サービスの流れ</h2>
           <div class="grid md:grid-cols-4 gap-8">
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">1. 現状分析と課題ヒアリング</h3>
@@ -134,7 +134,7 @@
       <!-- Achievements -->
       <section id="achievements" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">実績紹介</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">実績紹介</h2>
           <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">GASを活用した業務自動化</h3>
@@ -156,7 +156,7 @@
       <!-- Customer Reviews -->
       <section id="reviews" class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">お客様の声</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">お客様の声</h2>
           <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <p class="mb-4">「丁寧なヒアリングで、私たちが気づいていなかった課題を発見し、最適な解決策を提案してもらいました。」</p>
@@ -178,7 +178,7 @@
       <!-- Consultant Introduction -->
       <section id="consultant" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">あなたのDX顧問 - 馬込 浩</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">あなたのDX顧問 - 馬込 浩</h2>
           <div class="flex flex-col md:flex-row items-center justify-center">
             <img src="/リサイズ浩.png" alt="馬込 浩" class="rounded-full w-64 h-64 object-cover mb-8 md:mb-0 md:mr-12" />
             <div class="max-w-lg">
@@ -196,7 +196,7 @@
       <!-- Contact Form -->
       <section id="contact" class="bg-white py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">今すぐ無料相談をお申し込みください</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">今すぐ無料相談をお申し込みください</h2>
           <div class="max-w-3xl mx-auto bg-gray-100 rounded-lg shadow-md overflow-hidden">
             <iframe 
               src="https://docs.google.com/forms/d/e/1FAIpQLSd2NzTik0b26K6Cwtx0yIyqllwwKxfiedZx7fOb7fervW-9Fg/viewform?embedded=true" 
@@ -216,7 +216,7 @@
       <!-- FAQ -->
       <section class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center">よくある質問</h2>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">よくある質問</h2>
           <div class="max-w-3xl mx-auto">
             <div class="mb-8">
               <h3 class="text-xl font-semibold mb-2">DXって何ですか？</h3>
