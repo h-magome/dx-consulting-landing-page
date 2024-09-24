@@ -44,9 +44,9 @@
         <div class="container mx-auto text-center">
           <h1 class="text-4xl font-bold mb-4">中小企業のデジタル化を、手軽に、スピーディに。<br>月額29,800円でDXを実現！</h1>
           <p class="text-xl mb-8">業務効率化とコスト削減をサポート。無料相談はこちらから！</p>
-          <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+          <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
             今すぐ無料相談を申し込む
-          </button>
+          </a>
           <p class="mt-4 text-lg font-semibold">先着5名様は初月無料！</p>
         </div>
       </header>
@@ -73,9 +73,9 @@
             </div>
           </div>
           <div class="text-center">
-            <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
               今すぐ無料相談
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -103,9 +103,9 @@
             </div>
           </div>
           <div class="text-center mt-12">
-            <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
               無料相談はこちら
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -125,9 +125,9 @@
             </div>
           </div>
           <div class="text-center">
-            <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
               今すぐ無料相談
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -149,9 +149,9 @@
             </div>
           </div>
           <div class="text-center">
-            <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
               今すぐ無料相談
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -166,9 +166,9 @@
               <p class="text-lg mb-8">
                 大規模プロジェクトから小規模な案件まで、幅広く対応できる経験豊富なDXコンサルタントです。ITシステムの導入や業務効率化の実績を多数持ち、どのような課題にも迅速に対応いたします。
               </p>
-              <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+              <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
                 今すぐ無料相談
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -209,9 +209,9 @@
             </div>
           </div>
           <div class="text-center mt-12">
-            <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
               今すぐ無料相談
-            </button>
+            </a>
           </div>
         </div>
       </section>
