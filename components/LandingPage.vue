@@ -146,20 +146,42 @@
       <!-- Achievements -->
       <section id="achievements" class="bg-gray-100 py-16 px-4">
         <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">実績紹介</h2>
-          <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <div class="bg-white p-6 rounded-lg shadow-md">
-              <h3 class="text-xl font-semibold mb-4">GAS(Google Apps Script)を活用した業務自動化</h3>
-              <p>メール提案活動の自動化を実現。作業時間を1/3に削減した実績。</p>
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">圧倒的な実績</h2>
+          <div class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-green-500 transform hover:scale-105 transition-transform duration-300">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-semibold">生成AIの導入による業務効率化</h3>
+                <span class="text-3xl font-bold text-green-500">92%</span>
+              </div>
+              <p class="text-gray-700">自社独自の生成AIを導入したおかげで、これまで1時間かかっていた調査が5分足らずで済むようになった。</p>
+              <div class="mt-4 bg-green-100 p-2 rounded-md">
+                <span class="font-semibold text-green-700">調査時間削減率：92%</span>
+              </div>
             </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-              <h3 class="text-xl font-semibold mb-4">WEBサイトリニューアル</h3>
-              <p>SEO強化で問い合わせ数が倍増した事例。</p>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-green-500 transform hover:scale-105 transition-transform duration-300">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-semibold">GASを活用した業務自動化</h3>
+                <span class="text-3xl font-bold text-green-500">67%</span>
+              </div>
+              <p class="text-gray-700">メール提案活動の自動化を実現。作業時間を1/3に削減した実績。</p>
+              <div class="mt-4 bg-green-100 p-2 rounded-md">
+                <span class="font-semibold text-green-700">作業時間削減率：67%</span>
+              </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-2 border-green-500 transform hover:scale-105 transition-transform duration-300">
+              <div class="flex items-center justify-between mb-4">
+                <h3 class="text-xl font-semibold">WEBサイトリニューアル</h3>
+                <span class="text-3xl font-bold text-green-500">100%</span>
+              </div>
+              <p class="text-gray-700">SEO強化で問い合わせ数が倍増した事例。</p>
+              <div class="mt-4 bg-green-100 p-2 rounded-md">
+                <span class="font-semibold text-green-700">問い合わせ増加率：100%</span>
+              </div>
             </div>
           </div>
           <div class="text-center">
-            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
-              今すぐ無料相談
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-xl" @click.prevent="scrollToElement('#contact')">
+              圧倒的な実績を体験する
             </a>
           </div>
         </div>
