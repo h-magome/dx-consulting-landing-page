@@ -279,8 +279,10 @@
           </div>
           <div class="border-t border-gray-700 pt-8">
             <h3 class="text-xl font-semibold mb-4">運営会社</h3>
-            <p>株式会社KOPS</p>
-            <p>住所: 千葉県船橋市前原西2-14-2 津田沼駅前安田ビル別館2階26</p>
+            <div class="text-left max-w-fit mx-auto">
+              <p>株式会社KOPS</p>
+              <p>住所: 千葉県船橋市前原西2-14-2 津田沼駅前安田ビル別館2階26</p>
+            </div>
             <p class="mt-4">&copy; 2024 株式会社KOPS All Rights Reserved.</p>
           </div>
         </div>
