@@ -261,17 +261,23 @@
   
       <!-- Footer -->
       <footer class="bg-gray-800 text-white py-8 px-4">
-        <div class="container mx-auto">
-          <div class="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 class="text-xl font-semibold mb-4">株式会社KOPS</h3>
-              <p>住所: 千葉県船橋市前原西2-14-2 津田沼駅前安田ビル別館2階26</p>
-              <p>電話番号: 080-9643-5493</p>
-              <p>メールアドレス: h-magome@ko-partners.biz</p>
-            </div>
-            <div class="text-right">
-              <p>&copy; 2024 株式会社KOPS All Rights Reserved.</p>
-            </div>
+        <div class="container mx-auto text-center">
+          <div class="mb-8">
+            <h3 class="text-xl font-semibold mb-4">あなたのDX顧問</h3>
+            <ul class="flex flex-wrap justify-center space-x-4">
+              <li><a href="#service" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#service')">サービス概要</a></li>
+              <li><a href="#flow" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#flow')">サービスの流れ</a></li>
+              <li><a href="#achievements" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#achievements')">実績紹介</a></li>
+              <li><a href="#reviews" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#reviews')">お客様の声</a></li>
+              <li><a href="#consultant" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#consultant')">DXコンサルタント</a></li>
+              <li><a href="#contact" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#contact')">お問い合わせ</a></li>
+            </ul>
+          </div>
+          <div class="border-t border-gray-700 pt-8">
+            <h3 class="text-xl font-semibold mb-4">運営会社</h3>
+            <p>株式会社KOPS</p>
+            <p>住所: 千葉県船橋市前原西2-14-2 津田沼駅前安田ビル別館2階26</p>
+            <p class="mt-4">&copy; 2024 株式会社KOPS All Rights Reserved.</p>
           </div>
         </div>
       </footer>
