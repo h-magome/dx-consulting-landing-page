@@ -6,18 +6,18 @@
           <div class="flex justify-between items-center h-16">
             <div class="flex items-center cursor-pointer" @click="scrollToTop">
               <img src="/KOPSロゴ.webp" alt="KOPS Logo" class="h-16 w-16 mr-2">
-              <span class="font-bold text-xl text-gray-800">あなたのDX顧問</span>
+              <span class="font-bold text-xl text-green-600">あなたのDX顧問</span>
             </div>
-            <div class="hidden md:flex space-x-4">
-              <a href="#service" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#service')">サービス概要</a>
-              <a href="#flow" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#flow')">サービスの流れ</a>
-              <a href="#achievements" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#achievements')">実績紹介</a>
-              <a href="#reviews" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#reviews')">お客様の声</a>
-              <a href="#consultant" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#consultant')">DXコンサルタント</a>
-              <a href="#contact" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#contact')">お問い合わせ</a>
+            <div class="hidden md:flex items-center space-x-6">
+              <a href="#service" class="text-gray-700 hover:text-green-500 font-medium transition duration-300 ease-in-out border-b-2 border-transparent hover:border-green-500" @click.prevent="scrollToElement('#service')">サービス概要</a>
+              <a href="#flow" class="text-gray-700 hover:text-green-500 font-medium transition duration-300 ease-in-out border-b-2 border-transparent hover:border-green-500" @click.prevent="scrollToElement('#flow')">サービスの流れ</a>
+              <a href="#achievements" class="text-gray-700 hover:text-green-500 font-medium transition duration-300 ease-in-out border-b-2 border-transparent hover:border-green-500" @click.prevent="scrollToElement('#achievements')">実績紹介</a>
+              <a href="#reviews" class="text-gray-700 hover:text-green-500 font-medium transition duration-300 ease-in-out border-b-2 border-transparent hover:border-green-500" @click.prevent="scrollToElement('#reviews')">お客様の声</a>
+              <a href="#consultant" class="text-gray-700 hover:text-green-500 font-medium transition duration-300 ease-in-out border-b-2 border-transparent hover:border-green-500" @click.prevent="scrollToElement('#consultant')">DXコンサルタント</a>
+              <a href="#contact" class="bg-green-500 text-white hover:bg-green-600 font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">お問い合わせ</a>
             </div>
             <div class="md:hidden">
-              <button @click="toggleMenu" class="text-gray-600 hover:text-gray-800 focus:outline-none">
+              <button @click="toggleMenu" class="text-gray-600 hover:text-green-500 focus:outline-none">
                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path v-if="!isMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                   <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -27,14 +27,14 @@
           </div>
         </div>
         <!-- Mobile menu -->
-        <div v-if="isMenuOpen" class="md:hidden">
+        <div v-if="isMenuOpen" class="md:hidden bg-white shadow-lg">
           <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#service" class="block px-3 py-2 text-gray-600 hover:text-gray-800">サービス概要</a>
-            <a href="#flow" class="block px-3 py-2 text-gray-600 hover:text-gray-800">サービスの流れ</a>
-            <a href="#achievements" class="block px-3 py-2 text-gray-600 hover:text-gray-800">実績紹介</a>
-            <a href="#reviews" class="block px-3 py-2 text-gray-600 hover:text-gray-800">お客様の声</a>
-            <a href="#consultant" class="block px-3 py-2 text-gray-600 hover:text-gray-800">DXコンサルタント</a>
-            <a href="#contact" class="block px-3 py-2 text-gray-600 hover:text-gray-800">お問い合わせ</a>
+            <a href="#service" class="block px-3 py-2 text-gray-700 hover:text-green-500 hover:bg-gray-100 rounded-md transition duration-300 ease-in-out">サービス概要</a>
+            <a href="#flow" class="block px-3 py-2 text-gray-700 hover:text-green-500 hover:bg-gray-100 rounded-md transition duration-300 ease-in-out">サービスの流れ</a>
+            <a href="#achievements" class="block px-3 py-2 text-gray-700 hover:text-green-500 hover:bg-gray-100 rounded-md transition duration-300 ease-in-out">実績紹介</a>
+            <a href="#reviews" class="block px-3 py-2 text-gray-700 hover:text-green-500 hover:bg-gray-100 rounded-md transition duration-300 ease-in-out">お客様の声</a>
+            <a href="#consultant" class="block px-3 py-2 text-gray-700 hover:text-green-500 hover:bg-gray-100 rounded-md transition duration-300 ease-in-out">DXコンサルタント</a>
+            <a href="#contact" class="block px-3 py-2 bg-green-500 text-white hover:bg-green-600 rounded-md transition duration-300 ease-in-out">お問い合わせ</a>
           </div>
         </div>
       </nav>
