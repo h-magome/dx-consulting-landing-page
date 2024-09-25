@@ -149,7 +149,7 @@
           <h2 class="text-3xl font-bold mb-12 text-center text-green-500">実績紹介</h2>
           <div class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white p-6 rounded-lg shadow-md">
-              <h3 class="text-xl font-semibold mb-4">GASを活用した業務自動化</h3>
+              <h3 class="text-xl font-semibold mb-4">GAS(Google Apps Script)を活用した業務自動化</h3>
               <p>メール提案活動の自動化を実現。作業時間を1/3に削減した実績。</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
@@ -170,13 +170,19 @@
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center text-green-500">お客様の声</h2>
           <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-              <p class="mb-4">「丁寧なヒアリングで、私たちが気づいていなかった課題を発見し、最適な解決策を提案してもらいました。」</p>
-              <p class="font-semibold">- A社 代表取締役</p>
+            <div class="relative bg-white p-6 rounded-lg shadow-md">
+              <div class="absolute top-0 left-0 w-0 h-0 border-t-[20px] border-l-[20px] border-t-green-500 border-l-transparent"></div>
+              <div class="bg-green-100 p-4 rounded-lg mb-4">
+                <p class="mb-2">「丁寧なヒアリングで、私たちが気づいていなかった課題を発見し、最適な解決策を提案してもらいました。」</p>
+              </div>
+              <p class="font-semibold text-right">- A社 代表取締役</p>
             </div>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-              <p class="mb-4">「DX導入後、業務効率が飛躍的に向上しました。サポートがとても迅速で助かっています。」</p>
-              <p class="font-semibold">- B社 経営企画部長</p>
+            <div class="relative bg-white p-6 rounded-lg shadow-md">
+              <div class="absolute top-0 left-0 w-0 h-0 border-t-[20px] border-l-[20px] border-t-green-500 border-l-transparent"></div>
+              <div class="bg-green-100 p-4 rounded-lg mb-4">
+                <p class="mb-2">「DX導入後、業務効率が飛躍的に向上しました。サポートがとても迅速で助かっています。」</p>
+              </div>
+              <p class="font-semibold text-right">- B社 経営企画部長</p>
             </div>
           </div>
           <div class="text-center">
