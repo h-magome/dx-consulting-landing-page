@@ -204,9 +204,14 @@
                 新進気鋭のベンチャー企業から、グロース上場企業、プライム上場企業（時価総額ベスト5以内企業）まで多数のプロジェクトで、開発、プロジェクトマネジメント支援、ITコンサルティングを行ってきました。
                 ITシステムの導入や業務効率化の実績を多数持ち、どのような課題にも迅速に対応いたします。
               </p>
-              <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
-                今すぐ無料相談
-              </a>
+              <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
+                  今すぐ無料相談
+                </a>
+                <a href="https://even-wheel-148.notion.site/275c8bd3ec004fe18061816694d39726" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                  詳細なプロフィール
+                </a>
+              </div>
             </div>
           </div>
         </div>
