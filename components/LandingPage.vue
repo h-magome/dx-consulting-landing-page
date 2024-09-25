@@ -96,7 +96,9 @@
             <div class="bg-white p-6 rounded-lg shadow-md">
               <img src="/images/幅広い業務対応.svg" alt="幅広い業務対応" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">幅広い業務対応</h3>
-              <p>ウェブサイト制作、業務効率化支援、ITシステム導入代行など、さまざまなサービスを提供</p>
+              <p>ウェブサイト制作、業務効率化支援、ITシステム導入代行など、さまざまなサービスを提供。
+                ITに関わる業務はすべて丸投げ。
+              </p>
             </div>
           </div>
           <div class="text-center">
@@ -126,7 +128,7 @@
             </div>
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold mb-4">4. 継続的なサポート</h3>
-              <p>実行後もサポートを継続し、必要に応じてさらなる改善を行います。</p>
+              <p>実行後もサポートを継続し、必要に応じてさらなる改善を行います。常に伴走し続けるパートナーとなります。</p>
             </div>
           </div>
           <div class="text-center mt-12">
@@ -189,7 +191,8 @@
             <img src="/リサイズ浩.png" alt="馬込 浩" class="rounded-full w-64 h-64 object-cover mb-8 md:mb-0 md:mr-12" />
             <div class="max-w-lg">
               <p class="text-lg mb-8">
-                大規模プロジェクトから小規模な案件まで、幅広く対応できる経験豊富なDXコンサルタントです。ITシステムの導入や業務効率化の実績を多数持ち、どのような課題にも迅速に対応いたします。
+                新進気鋭のベンチャー企業から、グロース上場企業、プライム上場企業（時価総額ベスト5以内企業）まで多数のプロジェクトで、開発、プロジェクトマネジメント支援、ITコンサルティングを行ってきました。
+                ITシステムの導入や業務効率化の実績を多数持ち、どのような課題にも迅速に対応いたします。
               </p>
               <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
                 今すぐ無料相談
