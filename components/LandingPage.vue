@@ -4,7 +4,7 @@
       <nav class="bg-white shadow-md fixed top-0 left-0 right-0 z-10">
         <div class="container mx-auto px-4">
           <div class="flex justify-between items-center h-16">
-            <div class="flex items-center">
+            <div class="flex items-center cursor-pointer" @click="scrollToTop">
               <img src="/KOPSロゴ.webp" alt="KOPS Logo" class="h-16 w-16 mr-2">
               <span class="font-bold text-xl text-gray-800">あなたのDX顧問</span>
             </div>
@@ -267,7 +267,7 @@
       <footer class="bg-gray-800 text-white py-8 px-4">
         <div class="container mx-auto text-center">
           <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-4">あなたのDX顧問</h3>
+            <h3 class="text-xl font-semibold mb-4 cursor-pointer hover:text-gray-300 transition duration-300 ease-in-out" @click="scrollToTop">あなたのDX顧問</h3>
             <ul class="flex flex-wrap justify-center space-x-4">
               <li><a href="#service" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#service')">サービス概要</a></li>
               <li><a href="#flow" class="hover:text-gray-300 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#flow')">サービスの流れ</a></li>
@@ -304,6 +304,13 @@ const scrollToElement = (selector) => {
   if (element) {
     element.scrollIntoView({ behavior: 'smooth' })
   }
+}
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
 }
 
 onMounted(() => {
