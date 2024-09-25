@@ -9,12 +9,12 @@
               <span class="font-bold text-xl text-gray-800">あなたのDX顧問</span>
             </div>
             <div class="hidden md:flex space-x-4">
-              <a href="#service" class="text-gray-600 hover:text-gray-800">サービス概要</a>
-              <a href="#flow" class="text-gray-600 hover:text-gray-800">サービスの流れ</a>
-              <a href="#achievements" class="text-gray-600 hover:text-gray-800">実績紹介</a>
-              <a href="#reviews" class="text-gray-600 hover:text-gray-800">お客様の声</a>
-              <a href="#consultant" class="text-gray-600 hover:text-gray-800">DXコンサルタント</a>
-              <a href="#contact" class="text-gray-600 hover:text-gray-800">お問い合わせ</a>
+              <a href="#service" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#service')">サービス概要</a>
+              <a href="#flow" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#flow')">サービスの流れ</a>
+              <a href="#achievements" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#achievements')">実績紹介</a>
+              <a href="#reviews" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#reviews')">お客様の声</a>
+              <a href="#consultant" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#consultant')">DXコンサルタント</a>
+              <a href="#contact" class="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out" @click.prevent="scrollToElement('#contact')">お問い合わせ</a>
             </div>
             <div class="md:hidden">
               <button @click="toggleMenu" class="text-gray-600 hover:text-gray-800 focus:outline-none">
