@@ -115,18 +115,22 @@
           <h2 class="text-3xl font-bold mb-12 text-center text-green-500">サービスの流れ</h2>
           <div class="grid md:grid-cols-4 gap-8">
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/現状分析と課題ヒアリング.svg" alt="現状分析と課題ヒアリング" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">1. 現状分析と課題ヒアリング</h3>
               <p>業務内容や課題を詳細にヒアリングし、現在の業務状況を分析します。</p>
             </div>
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/最適な提案.svg" alt="最適な提案" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">2. 最適な提案</h3>
               <p>あなたの企業に最適なデジタル化の方法を提案します。お客様が気づいていない課題も浮き彫りにします。</p>
             </div>
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/実行支援.svg" alt="実行支援" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">3. 実行支援</h3>
               <p>提案内容を実行し、システム導入や業務の改善を支援します。</p>
             </div>
             <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+              <img src="/images/継続的なサポート.svg" alt="継続的なサポート" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">4. 継続的なサポート</h3>
               <p>実行後もサポートを継続し、必要に応じてさらなる改善を行います。常に伴走し続けるパートナーとなります。</p>
             </div>
