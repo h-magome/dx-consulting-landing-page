@@ -96,7 +96,7 @@
             <div class="bg-white p-6 rounded-lg shadow-md">
               <img src="/images/幅広い業務対応.svg" alt="幅広い業務対応" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">幅広い業務対応</h3>
-              <p>ウェブサイト制作、業務効率化支援、ITシステム導入代行など、さまざまなサービスを提供。
+              <p>WEBサイト制作、業務効率化支援、ITシステム導入代行など、さまざまなサービスを提供。
                 ITに関わる業務はすべて丸投げ。
               </p>
             </div>
@@ -153,7 +153,7 @@
               <p>メール提案活動の自動化を実現。作業時間を1/3に削減した実績。</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
-              <h3 class="text-xl font-semibold mb-4">ウェブサイトリニューアル</h3>
+              <h3 class="text-xl font-semibold mb-4">WEBサイトリニューアル</h3>
               <p>SEO強化で問い合わせ数が倍増した事例。</p>
             </div>
           </div>
