@@ -217,28 +217,8 @@
         </div>
       </section>
   
-      <!-- Contact Form -->
-      <section id="contact" class="bg-white py-16 px-4">
-        <div class="container mx-auto">
-          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">今すぐ無料相談をお申し込みください</h2>
-          <div class="max-w-3xl mx-auto bg-gray-100 rounded-lg shadow-md overflow-hidden">
-            <iframe 
-              src="https://docs.google.com/forms/d/e/1FAIpQLSd2NzTik0b26K6Cwtx0yIyqllwwKxfiedZx7fOb7fervW-9Fg/viewform?embedded=true" 
-              width="100%" 
-              height="1260" 
-              frameborder="0" 
-              marginheight="0" 
-              marginwidth="0"
-              title="無料相談申し込みフォーム"
-            >
-              読み込んでいます…
-            </iframe>
-          </div>
-        </div>
-      </section>
-  
       <!-- FAQ -->
-      <section class="bg-gray-100 py-16 px-4">
+      <section class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-12 text-center text-green-500">よくある質問</h2>
           <div class="max-w-3xl mx-auto">
@@ -259,6 +239,26 @@
             <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
               今すぐ無料相談
             </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section id="contact" class="bg-gray-100 py-16 px-4">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-12 text-center text-green-500">今すぐ無料相談をお申し込みください</h2>
+          <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+            <iframe 
+              src="https://docs.google.com/forms/d/e/1FAIpQLSd2NzTik0b26K6Cwtx0yIyqllwwKxfiedZx7fOb7fervW-9Fg/viewform?embedded=true" 
+              width="100%" 
+              height="1260" 
+              frameborder="0" 
+              marginheight="0" 
+              marginwidth="0"
+              title="無料相談申し込みフォーム"
+            >
+              読み込んでいます…
+            </iframe>
           </div>
         </div>
       </section>
