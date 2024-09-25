@@ -250,6 +250,10 @@
               <h3 class="text-xl font-semibold mb-2">どのような企業が対象ですか？</h3>
               <p>主に1～20名規模の不動産業、建設業、清掃業など、業務効率化やデジタル化を考えている企業様が対象です。</p>
             </div>
+            <div class="mb-8">
+              <h3 class="text-xl font-semibold mb-2">相談だけでも大丈夫ですか？</h3>
+              <p>全く問題ありません。まずはお気軽にご相談ください。ご相談の中でご自身が思いつかないような解決策を提示する場合も多くあります。</p>
+            </div>
           </div>
           <div class="text-center mt-12">
             <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
