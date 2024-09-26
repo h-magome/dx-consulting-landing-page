@@ -55,22 +55,87 @@
       <section id="dx-support" class="bg-white py-16 px-4">
         <div class="container mx-auto">
           <h2 class="text-3xl font-bold mb-8 text-center text-green-500">様々な背景・ケースでDXを支援</h2>
-          <div class="grid md:grid-cols-3 gap-8 mb-12">
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-              <img src="/images/WEBサイト構築運用・活用.svg" alt="WEBサイト構築運用・活用" class="h-12 w-12 mb-4 mx-auto">
-              <h3 class="text-xl font-semibold mb-4">WEBサイト構築運用・活用</h3>
-              <p>効果的なWEBサイトの構築と運用をサポートし、ビジネスの成長を促進します。</p>
+          <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300">
+              <img src="/images/見積書作成の自動化.svg" alt="見積書作成の自動化" class="h-12 w-12 mb-4 mx-auto">
+              <h3 class="text-xl font-semibold mb-4 text-red-500">見積書作成の自動化</h3>
+              <div class="flex flex-col md:flex-row justify-between items-center mb-4">
+                <div class="bg-red-100 p-4 rounded-lg mb-4 md:mb-0 md:mr-4 flex-1">
+                  <h4 class="font-semibold text-red-700 mb-2">現状</h4>
+                  <p>見積書の作成が手作業で行われており、時間がかかり、ミスが発生しやすい。</p>
+                </div>
+                <div class="bg-green-100 p-4 rounded-lg flex-1">
+                  <h4 class="font-semibold text-green-700 mb-2">解決策</h4>
+                  <p>見積もりシステムを導入し、材料費、労務費などを自動で計算し、テンプレートを使って見積書を生成。過去のデータを蓄積し、参考にすることで見積もりのスピードと正確性が向上します。</p>
+                </div>
+              </div>
+              <div class="bg-blue-100 p-4 rounded-lg">
+                <h4 class="font-semibold text-blue-700 mb-2">効果</h4>
+                <p>見積作業が大幅に短縮され、ミスの削減と迅速な見積もり提出が可能。</p>
+              </div>
             </div>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-              <img src="/images/業務効率化.svg" alt="業務効率化" class="h-12 w-12 mb-4 mx-auto">
-              <h3 class="text-xl font-semibold mb-4">業務効率化</h3>
-              <p>業務プロセスの見直しと最適化を通じて、効率的な業務運営を実現します。</p>
+            
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300">
+              <img src="/images/プロジェクト進行のデジタル管理.svg" alt="プロジェクト進行のデジタル管理" class="h-12 w-12 mb-4 mx-auto">
+              <h3 class="text-xl font-semibold mb-4 text-red-500">プロジェクト進行のデジタル管理</h3>
+              <div class="flex flex-col md:flex-row justify-between items-center mb-4">
+                <div class="bg-red-100 p-4 rounded-lg mb-4 md:mb-0 md:mr-4 flex-1">
+                  <h4 class="font-semibold text-red-700 mb-2">現状</h4>
+                  <p>プロジェクトの進行管理が手作業やエクセルで行われており、リアルタイムの進捗確認が難しい。</p>
+                </div>
+                <div class="bg-green-100 p-4 rounded-lg flex-1">
+                  <h4 class="font-semibold text-green-700 mb-2">解決策</h4>
+                  <p>プロジェクト管理ツールを導入し、各プロジェクトの進行状況をリアルタイムで確認できるようにする。各現場からの進捗報告もオンラインで行える。</p>
+                </div>
+              </div>
+              <div class="bg-blue-100 p-4 rounded-lg">
+                <h4 class="font-semibold text-blue-700 mb-2">効果</h4>
+                <p>プロジェクトの進行状況を管理者が即座に確認でき、遅延や問題が早期に発見・対処可能になる。</p>
+              </div>
             </div>
-            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-              <img src="/images/新規のITシステム導入支援.svg" alt="新規のITシステム導入支援" class="h-12 w-12 mb-4 mx-auto">
-              <h3 class="text-xl font-semibold mb-4">新規のITシステム導入支援</h3>
-              <p>最新のITシステム導入を支援し、企業の競争力を高めます。</p>
+            
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300">
+              <img src="/images/請求書発行の自動化.svg" alt="請求書発行の自動化" class="h-12 w-12 mb-4 mx-auto">
+              <h3 class="text-xl font-semibold mb-4 text-red-500">請求書発行の自動化</h3>
+              <div class="flex flex-col md:flex-row justify-between items-center mb-4">
+                <div class="bg-red-100 p-4 rounded-lg mb-4 md:mb-0 md:mr-4 flex-1">
+                  <h4 class="font-semibold text-red-700 mb-2">現状</h4>
+                  <p>請求書の発行が手動で行われており、計算ミスや送付の遅れが発生しやすい。</p>
+                </div>
+                <div class="bg-green-100 p-4 rounded-lg flex-1">
+                  <h4 class="font-semibold text-green-700 mb-2">解決策</h4>
+                  <p>自動で請求書を生成し、電子メールで送付できるシステムを導入。契約内容や工事の進捗に応じて自動的に金額を計算し、請求書を作成。</p>
+                </div>
+              </div>
+              <div class="bg-blue-100 p-4 rounded-lg">
+                <h4 class="font-semibold text-blue-700 mb-2">効果</h4>
+                <p>請求書発行業務の効率化、ミスの削減、迅速な支払い回収が実現。</p>
+              </div>
             </div>
+            
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md transform hover:scale-105 transition-all duration-300">
+              <img src="/images/労務管理のシステム化.svg" alt="労務管理のシステム化" class="h-12 w-12 mb-4 mx-auto">
+              <h3 class="text-xl font-semibold mb-4 text-red-500">労務管理のシステム化</h3>
+              <div class="flex flex-col md:flex-row justify-between items-center mb-4">
+                <div class="bg-red-100 p-4 rounded-lg mb-4 md:mb-0 md:mr-4 flex-1">
+                  <h4 class="font-semibold text-red-700 mb-2">現状</h4>
+                  <p>労務時間の管理が手作業やエクセルで行われており、正確な管理が難しい。</p>
+                </div>
+                <div class="bg-green-100 p-4 rounded-lg flex-1">
+                  <h4 class="font-semibold text-green-700 mb-2">解決策</h4>
+                  <p>労務管理システムを導入し、現場からモバイルで出退勤を報告。労働時間や休憩時間をリアルタイムで把握できるようにし、給与計算と連携。</p>
+                </div>
+              </div>
+              <div class="bg-blue-100 p-4 rounded-lg">
+                <h4 class="font-semibold text-blue-700 mb-2">効果</h4>
+                <p>正確な労務管理ができるようになり、給与計算の効率化と人件費の管理が容易になる。</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105" @click.prevent="scrollToElement('#contact')">
+              今すぐ無料相談
+            </a>
           </div>
         </div>
       </section>
@@ -96,7 +161,7 @@
             <div class="bg-white p-6 rounded-lg shadow-md">
               <img src="/images/幅広い業務対応.svg" alt="幅広い業務対応" class="h-12 w-12 mb-4 mx-auto">
               <h3 class="text-xl font-semibold mb-4">幅広い業務対応</h3>
-              <p>WEBサイト制作、業務効率化支援、ITシステム導入代行など、さまざまなサービスを提供。
+              <p>WEBサイト構築・運用、業務効率化支援、ITシステム導入代行、独自のシステム開発など、さまざまなサービスを提供。
                 ITに関わる業務はすべて丸投げ。
               </p>
             </div>
