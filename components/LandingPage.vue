@@ -5,7 +5,7 @@
         <div class="container mx-auto px-4">
           <div class="flex justify-between items-center h-16">
             <div class="flex items-center cursor-pointer" @click="scrollToTop">
-              <img src="/KOPSロゴ.webp" alt="KOPS Logo" class="h-16 w-16 mr-2">
+              <img src="/images/KOPSロゴ.png" alt="KOPS Logo" class="h-16 w-16 mr-2">
               <span class="font-bold text-xl text-green-600">あなたのDX顧問</span>
             </div>
             <div class="hidden md:flex items-center space-x-6">
