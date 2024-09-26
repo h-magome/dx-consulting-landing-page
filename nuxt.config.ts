@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       { hid: 'description', name: 'description', content: '中小企業のデジタル化を、手軽に、スピーディに。月額29,800円でDXを実現！' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/KOPSロゴ.ico' }
     ]
   },
 
