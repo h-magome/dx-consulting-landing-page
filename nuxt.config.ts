@@ -62,8 +62,14 @@ export default defineNuxtConfig({
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-gtag'
   ],
+
+  gtag: {
+    // 測定ID
+    id: 'G-9QNHGJJMCL'
+  },
 
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
