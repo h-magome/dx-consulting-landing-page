@@ -68,7 +68,7 @@ export default defineNuxtConfig({
 
   gtag: {
     // 測定ID
-    id: 'G-9QNHGJJMCL'
+    id: 'G-PQS71EQPX1'
   },
 
   tailwindcss: {
