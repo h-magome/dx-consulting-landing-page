@@ -17,7 +17,28 @@ export default defineNuxtConfig({
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { 
+        hid: 'gtag-js', 
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-PQS71EQPX1', 
+        async: true 
+      },
+      {
+        hid: 'gtag-inline',
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-PQS71EQPX1');
+        `,
+        type: 'text/javascript',
+        charset: 'utf-8'
+      }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+      'gtag-inline': ['innerHTML']
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
